@@ -1,0 +1,8 @@
+# Pin tensorflow-cpu (and numpy) to the SAME versions you trained with.
+# On your PC run:   pip show tensorflow numpy
+# then replace the two lines below, for example:  tensorflow-cpu==2.XX.X
+fastapi
+uvicorn[standard]
+pydantic
+numpy==2.3.5
+tensorflow-cpu==2.21.0
